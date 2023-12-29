@@ -1,9 +1,9 @@
 /* This is example Element Selector*/
-* {
+/* * {
   box-sizing: 0;
   margin: 0;
   padding: 0;
-}
+} */
 
 h1 {
   color: red;
@@ -32,4 +32,24 @@ p {
   height: 50px;
   width: 50px;
   background-color: red;
+}
+
+#box1 {
+  height: 100px;
+  width: 100px;
+  background-color: yellowgreen;
+  text-align: center;
+  text-decoration: line-through;
+}
+
+#head {
+  text-decoration: double;
+  text-transform: capitalize;
+  background-color: aquamarine;
+  color: black;
+}
+
+#second {
+  line-height: 18px;
+  font-style: italic;
 }

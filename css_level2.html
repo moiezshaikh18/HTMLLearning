@@ -7,16 +7,34 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <style>
+    * {
+      font-family: "Times New Roman", Times, serif;
+    }
     #bar {
       background-color: aquamarine;
       font-size: 25px;
       color: sienna;
     }
+    .nav h1 {
+      background-color: aqua;
+      text-align: center;
+      color: black;
+      text-transform: uppercase;
+    }
+    #inner {
+      font-size: 10px;
+    }
+    #outer {
+      font-size: 25px;
+    }
   </style>
   <body>
-    <div id="bar">This is my navbar</div>
-    <main style="height: 500px; background: yellowgreen">
-      <div></div>
-    </main>
+    <div class="nav">
+      <h1 id="heading">Navigation Form</h1>
+    </div>
+    <div id="outer">
+      outer
+      <div id="inner">inner</div>
+    </div>
   </body>
 </html>

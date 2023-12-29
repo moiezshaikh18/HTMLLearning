@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Property & Position</title>
+    <style>
+      #first {
+        background-color: tomato;
+        height: 100px;
+        width: 200px;
+        font-size: 14px;
+        display: inline-block;
+      }
+      #sec {
+        background-color: aqua;
+        height: 40%;
+        width: 40%;
+        font-size: 2em;
+      }
+      .one {
+        background-color: lightblue;
+        width: 50vw;
+        height: 50vh;
+      }
+      #main_div {
+        height: 50px;
+        width: 50px;
+        background-color: tomato;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 20;
+      }
+      .sub-div {
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+        border: 3px solid;
+      }
+      header nav a {
+        text-decoration: none;
+        margin-left: 55px;
+      }
+      #box4 {
+        position: fixed;
+        background-color: yellowgreen;
+        height: 55px;
+        width: 55px;
+        right: 55px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div id="first">
+      First Div
+      <div id="sec">Second Div</div>
+    </div>
+    <br />
+    <hr />
+    <div class="one">One</div> -->
+    <header style="background-color: aliceblue; height: 30px">
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+      </nav>
+    </header>
+    <main>
+      <div id="main_div"></div>
+      <div class="sub-div">contain 1</div>
+      <div class="sub-div">contain 2</div>
+      <div class="sub-div">contain 1</div>
+    </main>
+    <div id="box4">Box</div>
+    <footer>Footer</footer>
+  </body>
+</html>
