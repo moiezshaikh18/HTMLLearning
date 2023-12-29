@@ -1,3 +1,35 @@
+/* This is example Element Selector*/
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   color: red;
+}
+p {
+  color: brown;
+}
+
+#name {
+  font-size: 60px;
+}
+
+.main_div {
+  color: blue;
+  font-size: small;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#first p {
+  color: brown;
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+}
+.box {
+  height: 50px;
+  width: 50px;
+  background-color: red;
 }
